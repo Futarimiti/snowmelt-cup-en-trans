@@ -1,6 +1,6 @@
 # Invitation
 
-<!-- Version 1: generic Invitation -->
+<!-- Version 1: generic invitation -->
 
 ## Snowmelt Cup II
 

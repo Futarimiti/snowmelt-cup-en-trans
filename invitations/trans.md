@@ -12,9 +12,9 @@ Under the firmament interconnecting the past and the future,
 we so converged, so conversed, and so contended.
 We hope to bring bright smiles to
 all enthusiastic fighters of Arcaea,  <!-- ugh, bit of sudden? -->
-and You, are the indispensable part of Us. <!-- 感觉上这句和上一句接着好点？上一句也不会很突兀 -->
+and You, are the indispensable part of Us.  <!-- 感觉上这句和上一句接着好点？上一句也不会很突兀 -->
 Here, we sincerely welcome the community of ARCAEA players
-to showcase your skills and bring delights to the Snowmelt Cup II.  <!-- try to be more literary --> 
+to showcase your skills and bring delights to the Snowmelt Cup II.  <!-- try to be more literary -->
 <!-- "here" 和 "players"有待改进，最后一句可以删掉一半。-->
 
 The event of Snowmelt Cup II will be held
@@ -22,7 +22,7 @@ over separate weekends commencing August 2023.
 Registration will take form of subject tracks,
 3 of which may be decided individually
 according to the competence of each player
-to be taken into compete.
+to be taken into compete.  <!-- too much "compete"! -->
 Generous prizes await the winners!
 
 In this event, we hope to provide a platform for

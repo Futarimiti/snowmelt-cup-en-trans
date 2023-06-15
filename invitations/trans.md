@@ -11,9 +11,11 @@ Stretches afar zenith the sapphire, lingers adrift the melting snow.
 Under the firmament interconnecting the past and the future,
 we so converged, so conversed, and so contended.
 We hope to bring bright smiles to
-all enthusiastic fighters of Arcaea.  <!-- ugh, bit of sudden? -->
-And You, the indispensable part of Us,
-are herein invited to participate in Snowmelt Cup II.  <!-- try to be more literary -->
+all enthusiastic fighters of Arcaea,  <!-- ugh, bit of sudden? -->
+and You, are the indispensable part of Us. <!-- 感觉上这句和上一句接着好点？上一句也不会很突兀 -->
+Here, we sincerely welcome the community of ARCAEA players
+to showcase your skills and bring delights to the Snowmelt Cup II.  <!-- try to be more literary --> 
+<!-- "here" 和 "players"有待改进，最后一句可以删掉一半。-->
 
 The event of Snowmelt Cup II will be held
 over separate weekends commencing August 2023.
@@ -26,12 +28,14 @@ Generous prizes await the winners!
 In this event, we hope to provide a platform for
 worldwide contestants to exchange experience,
 improve skills, share joy, build relationships,
+<!-- pursuing not only their individual quests, 
+but also the essence of pursuit itself. --> <!-- "individual quests"好奇怪但是我实在不会翻“所追寻之物”.."what they pursue"又好像有点重复 -->
 and pursue the meaning of the pursuit itself.  <!-- sounds weird but meh -->
 
 At last, please allow us to express our sincere
 gratitude and honour at your presence.
 Snowmelt Cup will shine her every glow with your participation,
-and keep her everlasting joy and satisfaction  <!-- "satisfaction" does not sound right; maybe "memories" -->
+and keep her everlasting joy and satisfaction  <!-- "satisfaction" does not sound right; maybe "memories" --> <!-- 正确的 -->
 in the heart of every Arcaea player
 bravely stepping into the challenge.
 
@@ -61,6 +65,6 @@ We have also prepared generous prizes,
 awaiting the arrival of the final winners!
 
 We look forward to your participation,
-to show your strength and style <!-- bad word choice -->,
-to compete with countless <!-- really? "countless"? --> challengers,
+to show your strength and style <!-- bad word choice --> <!-- 或许 flair, brilliance, mettle之类的? -->,
+to compete with countless <!-- really? "countless"? --> challengers, <!-- 或许用respectful或者别的形容词？countless是有点怪-->
 and to deliver a unique and brilliant chapter for Snowmelt Cup!

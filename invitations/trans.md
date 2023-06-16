@@ -37,7 +37,7 @@ I suggest just cutting this part out
 
 At last, please allow us to express our sincere
 gratitude and honour at your presence.
-Snowmelt Cup will shine her every glow with your participation,
+Snowmelt Cup will shine her everglow with your participation,
 and keep her everlasting joy and memories
 in the heart of every Arcaea player
 bravely stepping into the challenge.

@@ -19,9 +19,8 @@ to showcase your skills and delight the upcoming Snowmelt Cup II.
 The event will be scheduled
 over separate weekends commencing August 2023.
 Registration will take form of subject tracks,
-3 of which may be individually decided,
-as per their flair,
-by each player to be taken into compete.  <!-- too complex! -->
+3 of which may be chosen on an individual basis
+by each player to be taken into compete.
 Generous prizes await the winners!
 
 With this opportunity, we hope to provide a platform for

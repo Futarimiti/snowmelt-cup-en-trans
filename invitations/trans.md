@@ -58,7 +58,7 @@ Herein, it is an honour for all of us,
 members of the organising committee of Snowmelt Cup,
 to delightfully invite you
 to bring more excitement and inspiration
-in Snowmelt Cup II.
+in the upcoming Snowmelt Cup II.
 
 The event is scheduled to take place
 over separate weekends commencing August 2023.

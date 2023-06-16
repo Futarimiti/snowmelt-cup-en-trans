@@ -70,5 +70,5 @@ awaiting the arrival of the final winners!
 
 We look forward to your participation,
 to showcase your strength and flair,
-to compete with respectful challengers,
+to compete against the respectful challengers,
 and to deliver a unique and brilliant chapter for Snowmelt Cup!

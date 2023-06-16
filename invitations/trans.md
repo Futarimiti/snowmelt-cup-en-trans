@@ -8,12 +8,12 @@
 
 Stretches afar zenith the sapphire, lingers adrift the melting snow.
 
-Under the firmament interconnecting the past and the future,
+Beneath the firmament interconnecting the past and the future,
 we so converged, so conversed, and so contended.
-We hope to bring bright smiles to
-all enthusiastic fighters of Arcaea,
+To bring more bright smiles on
+the faces of all the enthusiastic fighters of Arcaea,
 and You, the indispensable part of Us,
-and herein sincerely welcome the community of ARCAEA players
+are herein sincerely welcomed
 to showcase your skills and delight the upcoming Snowmelt Cup II.
 
 The event will be scheduled

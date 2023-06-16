@@ -61,7 +61,7 @@ to bring more excitement and inspiration
 in Snowmelt Cup II.
 
 The event is scheduled to take place
-on separate weekends commencing August 2023.
+over separate weekends commencing August 2023.
 During these weekends, numerous Arcaea players
 will engage in competition within their respective groups.
 We have also prepared generous prizes,

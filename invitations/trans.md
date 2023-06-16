@@ -12,7 +12,7 @@ Beneath the firmament interconnecting the past and the future,
 we so converged, so conversed, and so contended.
 To bring more bright smiles on
 the faces of all the enthusiastic fighters of Arcaea,
-and You, the indispensable part of Us,
+You, the indispensable part of Us,
 are herein sincerely welcomed
 to showcase your skills and delight the upcoming Snowmelt Cup II.
 

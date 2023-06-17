@@ -10,7 +10,7 @@ Stretches afar zenith the sapphire, lingers adrift the melting snow.
 
 Beneath the firmament interconnecting the past and the future,
 we so converged, so conversed, and so contended.
-To bring more bright smiles on
+To bring brighter smiles on
 the faces of all the enthusiastic fighters of Arcaea,
 You, the indispensable part of Us,
 an undisputed Arcaea fanatic,  <!-- hmmm... -->

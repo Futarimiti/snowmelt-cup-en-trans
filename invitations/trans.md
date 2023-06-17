@@ -13,14 +13,15 @@ we so converged, so conversed, and so contended.
 To bring more bright smiles on
 the faces of all the enthusiastic fighters of Arcaea,
 You, the indispensable part of Us,
+an undisputed Arcaea fanatic,  <!-- hmmm... -->
 are herein sincerely welcomed
 to showcase your skills and delight the upcoming Snowmelt Cup II.
 
 The event will be scheduled
 over separate weekends commencing August 2023.
-Registration will take form of subject tracks,
+Registration will take form of class songs,
 3 of which may be chosen on an individual basis
-by each player to be taken into compete.
+by each player to be taken into competing.
 Generous prizes await the winners!
 
 With this opportunity, we hope to provide a platform for

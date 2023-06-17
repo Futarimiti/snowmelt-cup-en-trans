@@ -26,15 +26,10 @@ Generous prizes await the winners!
 
 With this opportunity, we hope to provide a platform for
 the worldwide contestants to exchange experience,
-improve skills, build relationships,both pursue higher and farther dreams, also don't forget the first desire,
-and most importantly, enjoy the event.
-
-<!-- pursuing not only their individual quests, but also the essence of pursuit itself.
-"individual quests"好奇怪但是我实在不会翻“所追寻之物”.."what they pursue"又好像有点重复
-
-there's literally no way to properly translate this without introducing confusions
-I suggest just cutting this part out 
-- futarimiti -->
+to improve skills, to build relationships,
+to pursue higher and further dreams
+while not forgetting the very first desire,
+and most importantly, to enjoy the event.
 
 At last, please allow us to express our sincere
 gratitude and honour at your presence.

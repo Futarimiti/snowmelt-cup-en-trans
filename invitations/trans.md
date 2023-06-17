@@ -28,7 +28,7 @@ With this opportunity, we hope to provide a platform for
 the worldwide contestants to exchange experience,
 to improve skills, to build relationships,
 to pursue higher and further dreams
-while not forgetting the very first desire,
+while not to forget the very first desire,
 and most importantly, to enjoy the event.
 
 At last, please allow us to express our sincere

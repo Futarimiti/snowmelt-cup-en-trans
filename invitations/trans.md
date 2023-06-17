@@ -26,7 +26,7 @@ Generous prizes await the winners!
 
 With this opportunity, we hope to provide a platform for
 the worldwide contestants to exchange experience,
-improve skills, build relationships,
+improve skills, build relationships,both pursue higher and farther dreams, also don't forget the first desire,
 and most importantly, enjoy the event.
 
 <!-- pursuing not only their individual quests, but also the essence of pursuit itself.

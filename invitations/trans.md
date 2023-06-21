@@ -33,10 +33,10 @@ and most importantly, to enjoy the event.
 
 At last, please allow us to express our sincere
 gratitude and honour at your presence.
-Snowmelt Cup will shine her everglow with your participation,
+May your participation shine Snowmelt Cup her everglow,
 and keep her everlasting joy and memories
 in the heart of every Arcaea player
-bravely stepping into the challenge.
+bravely stepping into the challenge!
 
 <!-- Version 2: individual invitation -->
 

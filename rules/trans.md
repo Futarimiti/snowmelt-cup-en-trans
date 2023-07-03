@@ -9,7 +9,7 @@ the participants and the judges,
 are strictly prohibited from
 proceeding with any form of
 violations against the fairness of the event,
-and any form of activities that
+or any form of activities that
 may cause harm to the other's legitimate interests.
 Violators may face penalties
 and take personal responsibility for the consequences.

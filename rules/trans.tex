@@ -67,7 +67,6 @@ Songs will be classified
 into 3 categories correspondingly,
 namely class songs.
 
-% An explanation of 3 song categories:
 \begin{table}[!htbp]
 	\centering
 	\begin{tabular}{cl}
@@ -116,12 +115,11 @@ will need to go through the same
 audition procedure as aforementioned,
 and those ranked lower than 16 still will be eliminated
 once for all.  % bit of disrespectful?
-(Note: contestants who switch divisions
-still need to possess the required songs
+(Note: to successfully switch, contestants
+must possess the required songs
 as stated in \cref{sec:application-requirements}.)
 
-Otherwise, in the case of
-all the divisions having $\geq 16$ contestants,
+Otherwise if all the divisions have had $\geq 16$ contestants,
 those ranked lower than 16 will be eliminated.
 Contestants who passed will then be examined for
 possessing the required songs.
@@ -147,7 +145,7 @@ may DM the judge to pick one and only one song,
 to increase its chance of being selected
 in their participating round by \qty{25}{\percent},
 AND/OR ban one and only one song.
-When placed on the same song,
+When applied on the same song,
 a pick and a ban cancel out each other.
 The song picked/banned must be within
 the pool of the corresponding division.
@@ -169,7 +167,7 @@ will be grouped together).
 
 \subsection  {Round II: Individual matches, 8 into 4}
 
-Every champion  % not yet champion, i guess? 
+Every victor  % not yet champion, i guess? 
 from the last round
 will be paired with a runner-up
 from a different group for a match.
@@ -271,7 +269,7 @@ using a calculating procedure known as ``scoring''.
 \newcommand{\Points}{\text{Points}}
 
 \subsection{Single song scoring}
-The points from one single music play is calculated as follows:
+The points of a single music play are calculated as follows:
 \alert{
 	\begin{align*}
 		\Points        & = \frac{M + 0.9P + 0.2F}{N}   \\
@@ -284,36 +282,38 @@ The points from one single music play is calculated as follows:
 
 \subsection{Bonus}
 
-Bonus conditions are division-dependent (see below).
+Conditions for bonus are division-dependent.
 Once triggered, an alternative scoring formula
-will be used instead.  % ...as to include the bonus.
+will be used instead.
 
-Division S: require $(S_\text{me} - S_\text{opponent} \geq \num[group-separator={,}]{10000})$, where $S = \text{Score}$
-\alert{
-	\begin{equation*}
-		\Points = \frac{M + 0.96P + 0.2F}N
-	\end{equation*}
-}
+\begin{itemize}
+	\item Division S: require $(S_\text{me} - S_\text{opponent} \geq \num[group-separator={,}]{10000})$, where $S = \text{Score}$
+	      \alert{
+		      \begin{equation*}
+			      \Points = \frac{M + 0.96P + 0.2F}N
+		      \end{equation*}
+	      }
 
-Division T: require $(L_\text{me} \leq L_\text{opponent})$, where $L = \text{No.~of Lost}$
-\alert{
-	\begin{equation*}
-		\Points = \frac{M + 0.9P + 0.5F}N
-	\end{equation*}
-}
+	\item Division T: require $(L_\text{me} \leq L_\text{opponent})$, where $L = \text{No.~of Lost}$
+	      \alert{
+		      \begin{equation*}
+			      \Points = \frac{M + 0.9P + 0.5F}N
+		      \end{equation*}
+	      }
 
-Division Cb: require $(P_\text{me} - P_\text{opponent} \geq 10$ \emph{AND} $S_\text{me} \geq \num[group-separator={,}]{9970000})$
-\alert{
-	\begin{equation*}
-		\Points		= \frac{M + 0.9P + 0.2F + 0.75L} N
-	\end{equation*}
-}
+	\item Division Cb: require $(P_\text{me} - P_\text{opponent} \geq 10$ \emph{AND} $S_\text{me} \geq \num[group-separator={,}]{9970000})$
+	      \alert{
+		      \begin{equation*}
+			      \Points = \frac{M + 0.9P + 0.2F + 0.75L}N
+		      \end{equation*}
+	      }
+\end{itemize}
 
 \subsection{Overtime penalty}
 \penalyformula{
 	\begin{align*}
 		\text{Penalty}(song) & = \Points(song) \times \left(1-\frac{{T}^2} {3600}\right) \\
-		\text{where}~T       & =\text{Overtime in seconds}
+		\text{where}~T       & = \text{Overtime in seconds}
 	\end{align*}
 }
 
@@ -331,13 +331,13 @@ for all three class songs.
 	      in order to determine the schedule of matches
 	      and duly notify the judge.
 
-	\item Should a contestant wish to Ban/Pick,
+	\item Should a contestant wish to ban/pick,
 	      they need to notify the judge at least 30 minutes
 	      prior to the starting of the match.
 
 	\item During the group stage (Round I),
 	      every match will commence 1 minute
-	      after announcing the song.
+	      after the song being announced.
 	      5 minutes will be given for the music play,
 	      during which the contestant may restart the song if wished to.
 	      Contestants will then be given 4 minutes for
@@ -359,8 +359,8 @@ at both the beginning and end of the music play,
 accurate to the second,
 based on Coordinated Universal Time (UTC).
 
-Contestants should remember to capture a timestamped screenshot
-of the play result
+Contestants should always remember to capture
+a timestamped screenshot of the play result
 when finishing a music play.
 Therefore in case of a mistakenly ruled overtime,
 the screenshot/handcam could be
@@ -384,8 +384,7 @@ Unless otherwise stated, ban/pick are defined as follows:
 \begin{itemize}
 	\item Ban: to disable a song from appearing in the current round.
 
-	\item Pick: to choose a song to make it definitely
-	      appearing in the current round.
+	\item Pick: to make a song definitely appearing in the current round.
 
 	\item During the group stage (Round I),
 	      banned and picked song will be revealed
@@ -416,32 +415,39 @@ Unless otherwise stated, ban/pick are defined as follows:
 \section{Schedule}
 
 All the timestamps below are in form of
-\texttt{yyyy/mm/dd HH:MM}, GMT+8.
+\texttt{yyyy/mm/dd} (\texttt{HH:MM}), GMT+8.
 
-\begin{itemize}
-	\item   Audition: 2023/07/16 12:00--2023/07/30 00:00
-	\item   Round I: 2023/08/01--2023/08/10
-	\item   Round II: 2023/08/11--2023/08/18
-	\item   Round III: 2023/08/19--2023/08/26
-\end{itemize}
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{lc}
+		\hline
+		Event     & Schedule                           \\ \hline
+		Audition  & 2023/07/16 12:00--2023/07/30 00:00 \\
+		Round I   & 2023/08/01--2023/08/10             \\
+		Round II  & 2023/08/11--2023/08/18             \\
+		Round III & 2023/08/19--2023/08/26             \\ \hline
+	\end{tabular}
+\end{table}
 
 \section{Time slots}
 
 All the timestamps below use the form of
 \texttt{HH:MM}, GMT+8.
 
-Round I/II: 8:00--9:00, 14:00--15:00, 15:30--16:30, 19:00--20:00, 20:30--21:30
+\begin{itemize}
+	\item Round I/II: 8:00--9:00, 14:00--15:00, 15:30--16:30, 19:00--20:00, 20:30--21:30
 
-Round III takes the same time slots as Round II
-but with 20 more minutes appended.
+	\item Round III will take the same time slots as Round II
+	      but with an additional 20 minutes appended to each.
 
-Should you have any other time arrangements,
-please contact the judge who will
-try to accommodate as much as possible.
+	\item Should you have any other time arrangements,
+	      please contact the judge who will
+	      try to accommodate as much as possible.
 
-Please bear in mind that
-the time slots do not include the Ban/Pick stage,
-which will be instead scheduled 30 minutes prior to the commencement.
+	\item Please bear in mind that
+	      the time slots do not include the ban/pick stage,
+	      which will be instead scheduled 30 minutes prior to the commencement.
+\end{itemize}
 
 \section{Prizes}
 
@@ -460,13 +466,14 @@ which will be instead scheduled 30 minutes prior to the commencement.
 	\end{tabular}
 \end{table}
 
-Each division would yield a set of the above standings
-i.e.~three champions will be produced in total,
-one in each division, and so does the rest.
-% ...per division
+Each division would yield a set of the above standings,
+i.e.,
+three champions will be produced in total---%
+one from each division---%
+and so will the rest be determined.
 
-All the prizes above will be awarded in form of  % maybe 'be converted'? 
-cash---every Arcaea Sound Collection Album converts to ¥150
+All the prizes will be awarded in form of  % maybe 'be converted'? 
+cash---every Arcaea Sound Collection Album converts to ¥150,
 and every 100 Memories converts  % convert or converts??? 
 to ¥6.
 

@@ -16,7 +16,8 @@
 \newcommand{\penalyformula}[1]{{\color{cyan} #1}}
 \newcommand{\startsectionfromzero}{\setcounter{section}{-1}}
 \newcommand{\srbgcolor}{red!40}
-\newcommand{\specialrule}[1]{\colorbox{\srbgcolor}{\parbox{\textwidth}{#1}}}
+\newcommand{\specialrule}[1]{\hfuzz=100pt  % overfull hbox doesn't matter here
+	\colorbox{\srbgcolor}{\parbox{\textwidth}{#1}}}
 \newcommand{\beyond}{\textsf{Beyond}}
 
 \startsectionfromzero
@@ -183,7 +184,7 @@ The contestant with the higher points advances to the next round.
 \specialrule{
 	Special rule: After finishing picking,
 	a contestant may DM the judge with ``high'' or ``low''
-	to take a sneak about
+	to take a sneak peek at
 	the approximate chart constant of the opponent's pick
 	($\pm0.1$).
 }
@@ -263,10 +264,10 @@ The finals will be divided into two parts in terms of procedure.
 \section{Scoring}
 
 \subsection{Definitions}
-\textsf{Score} refers to your in-game play result.
-\textsf{Point} refers to your score in the tournament,  % informal
+\emph{Score} refers to your in-game play result.
+\emph{Point} refers to your score in the tournament,  % informal
 derived from the play result
-using a calculating procedure known as \textsf{scoring}.
+using a calculating procedure known as \emph{scoring}.
 
 \newcommand{\Points}{\text{Points}}
 
@@ -334,16 +335,18 @@ for all three class songs.
 	      and duly notify the judge.
 
 	\item Should a contestant wish to ban/pick a song,
-	      they need to notify the judge at least 30 minutes
-	      prior to the starting of the match.
+	      they will need to notify the judge at least 30 minutes
+	      prior to the commencement of the match.
 
 	\item During the group stage (Round I),
-	      every match will commence 1 minute
+	      every match will begin 1 minute
 	      after the song being announced.
 	      Contestants will be given 5 minutes for the music play,
 	      during which they may restart if they wish.
-	      Following that, a 4-minute moment of respite will be given.
-	      While matches could be separately scheduled,  % how about "asynchronously"
+	      Following that, a 4-minute moment of respite will be given
+	      before the next match begins, if any remaining.
+
+	\item While matches could be separately scheduled,  % how about "asynchronously"
 	      contestants are recommended to finish up their matches
 	      as sooner as possible,
 	      for the convenience of statistics.  % <!-- feels weird man -->
@@ -353,30 +356,32 @@ for all three class songs.
 
 \section{Handcams \& screenshots}
 
-Handcam is required throughout the tournament.
-The recording must remain unedited,
-and must include timestamps
-at both the beginning and end of the music play,
-accurate to the second,
-based on Coordinated Universal Time (UTC).
+\begin{itemize}
+	\item Handcam will be required throughout the tournament;
+	      the recording of which should remain unedited,
+	      and include timestamps
+	      at both the beginning and end of the music play,
+	      accurate to the second,
+	      based on Coordinated Universal Time (UTC).
 
-Contestants should always remember to capture
-a timestamped screenshot of the play result
-when finishing a music play.
-Therefore, in case of a mistakenly ruled overtime,
-the screenshot/handcam could be
-submitted as evidence for the judges to review.
+	\item Contestants should always remember to capture
+	      a timestamped screenshot of the play result
+	      when finishing a music play.
+	      Therefore, in case of a mistakenly ruled overtime,
+	      the screenshot/handcam could be
+	      submitted as evidence for the judges to review.
 
-Only the winning contestants need to submit the handcam
-at the end of the match.
+	\item Only the winning contestants need to submit the handcam
+	      at the end of the match.
 
-Exception: one would \textbf{never}
-trigger the overtime penalty
-by retrying a song
-for \textbf{no more than once},
-regardless of whether the timeout occurs.
-In case of a wrongful judgement,
-please appeal to the staff team.
+	\item Exception: one would \textbf{never}
+	      trigger the overtime penalty
+	      by retrying a song
+	      for \textbf{no more than once},
+	      regardless of whether the timeout occurs.
+	      In case of a wrongful judgement,
+	      please appeal to the staff team.
+\end{itemize}
 
 \section{Ban/Pick}
 

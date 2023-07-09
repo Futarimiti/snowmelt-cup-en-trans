@@ -1,18 +1,20 @@
 \documentclass{article}
 
+\usepackage{calc}
 \usepackage{xcolor}
 \usepackage{amsmath}
 \usepackage[a4paper]{geometry}
 \usepackage[parfill]{parskip}
 \usepackage[noabbrev,nameinlink,capitalise]{cleveref}
 \usepackage{siunitx}
-\usepackage{microtype}
+\usepackage{graphicx}
 
 \title{{Snowmelt Cup II}\\{\Huge Rules}}
 \author{}
 \date{}
 
 \newcommand{\alert}[1]{{\color{red} #1}}
+\newcommand{\scoreformula}[1]{{\color{red} #1}}
 \newcommand{\penalyformula}[1]{{\color{cyan} #1}}
 \newcommand{\startsectionfromzero}{\setcounter{section}{-1}}
 \newcommand{\srbgcolor}{red!40}
@@ -113,26 +115,27 @@ according to their scores on the class songs.
 	will be given the opportunity to switch to B,
 	but with a ranking certainly lower than
 	anyone else originally placed there.}
-Contestants who decide to switch
-will need to go through the same
-audition procedure as aforementioned,
-and those ranked lower than 16 still will be eliminated
-once for all.  % bit of disrespectful?
+Should a contestant wish to switch,
+they should go through the same
+audition procedure as aforementioned.
+Contestants who eventually ranked lower than the 16th place
+still will be eliminated.
+% and can no longer continue in the tournament.
 (Note: to successfully switch, contestants
 must possess the required songs
 as stated in \cref{sec:application-requirements}.)
 
-Otherwise if all the divisions have had $\geq 16$ contestants,
+Otherwise, if all the divisions have had $\geq 16$ contestants,
 those ranked lower than 16 will be eliminated.
 Contestants who passed will then be examined for
 possessing the required songs.
 Contestants also need to bind with Bot
 using their Arcaea friend code.
-Anyone not possessing the required songs
-will be disqualified and being
+Any contestants who do not possess the required songs
+will be disqualified and subsequently
 replaced by a previously eliminated
-contestant in the division,
-in the order of ranking.
+contestant in the same division,
+according to the ranking order.
 
 \subsection{Round I: Group Stage, 16 into 8}
 
@@ -269,16 +272,23 @@ The finals will be divided into two parts in terms of procedure.
 derived from the play result
 using a calculating procedure known as \emph{scoring}.
 
-\newcommand{\Points}{\text{Points}}
+\newcommand{\notestyle}[1]{\textsc{\lowercase {#1}}}
+\newcommand\Points{\text{Points}}
+\newcommand\MaxPure{\notestyle{Max Pure}}
+\newcommand\Pure{\notestyle{Pure}}
+\newcommand\Far{\notestyle{Far}}
+\newcommand\Lost{\notestyle{Lost}}
+% https://tex.stackexchange.com/a/275397/293361
+\newcommand{\coloneq}{\mathrel{\resizebox{\widthof{$\mathord{=}$}}{\height}{ $\!\!\resizebox{1.2\width}{0.8\height}{\raisebox{0.23ex}{$\mathop{:}$}}\!\!=\!\!$ }}}
 
 \subsection{Single song scoring}
 The points of a single music play are calculated as follows:
-\alert{
+\scoreformula{
 	\begin{align*}
-		\Points        & = \frac{M + 0.9P + 0.2F}{N}   \\
-		\text{where}~M & = \text{No.~of Max Pure,}     \\
-		P              & = \text{No.~of Pure,}         \\
-		F              & = \text{No.~of Far,}          \\
+		\Points        & \coloneq \frac{M + 0.9P + 0.2F}{N} \\
+		\text{where}~M & = \text{No.~of \MaxPure,}          \\
+		P              & = \text{No.~of \Pure,}             \\
+		F              & = \text{No.~of \Far,}              \\
 		N              & = \text{Total count of notes}
 	\end{align*}
 }
@@ -291,31 +301,35 @@ will be used instead.
 
 \begin{itemize}
 	\item Division S: require $(S_\text{me} - S_\text{opponent} \geq \num[group-separator={,}]{10000})$, where $S = \text{Score}$
-	      \alert{
-		      \begin{equation*}
-			      \Points = \frac{M + 0.96P + 0.2F}N
-		      \end{equation*}
-	      }
-
-	\item Division T: require $(L_\text{me} \leq L_\text{opponent})$, where $L = \text{No.~of Lost}$
-	      \alert{
-		      \begin{equation*}
-			      \Points = \frac{M + 0.9P + 0.5F}N
-		      \end{equation*}
-	      }
-
-	\item Division Cb: require $(P_\text{me} - P_\text{opponent} \geq 10$ \emph{AND} $S_\text{me} \geq \num[group-separator={,}]{9970000})$
-	      \alert{
-		      \begin{equation*}
-			      \Points = \frac{M + 0.9P + 0.2F + 0.75L}N
-		      \end{equation*}
-	      }
 \end{itemize}
+\scoreformula{
+	\begin{equation*}
+		\Points \coloneq \frac{M + 0.96P + 0.2F}N
+	\end{equation*}
+}
+
+\begin{itemize}
+	\item Division T: require $(L_\text{me} \leq L_\text{opponent})$, where $L = \text{No.~of \Lost}$
+\end{itemize}
+\scoreformula{
+	\begin{equation*}
+		\Points \coloneq \frac{M + 0.9P + 0.5F}N
+	\end{equation*}
+}
+
+\begin{itemize}
+	\item Division Cb: require $(P_\text{me} - P_\text{opponent} \geq 10$ \emph{AND} $S_\text{me} \geq \num[group-separator={,}]{9970000})$
+\end{itemize}
+\scoreformula{
+	\begin{equation*}
+		\Points \coloneq \frac{M + 0.9P + 0.2F + 0.75L}N
+	\end{equation*}
+}
 
 \subsection{Overtime penalty}
 \penalyformula{
 	\begin{align*}
-		\text{Penalty}(song) & = \Points(song) \times \left(1-\frac{{T}^2} {3600}\right) \\
+		\text{Penalty}(song) & \coloneq \Points(song) \times \left(1-\frac{{T}^2} {3600}\right) \\
 		\text{where}~T       & = \text{Overtime in seconds}
 	\end{align*}
 }
@@ -326,9 +340,7 @@ Audition points summarise the single song points
 for all three class songs.
 
 \section{Time allocation}
-
 \begin{itemize}
-
 	\item Upon confirming the grouping,
 	      contestants should reach out to their opponents
 	      in order to determine the schedule of matches
@@ -355,7 +367,6 @@ for all three class songs.
 \end{itemize}
 
 \section{Handcams \& screenshots}
-
 \begin{itemize}
 	\item Handcam will be required throughout the tournament;
 	      the recording of which should remain unedited,
@@ -384,9 +395,7 @@ for all three class songs.
 \end{itemize}
 
 \section{Ban/Pick}
-
 Unless otherwise stated, ban/pick are defined as follows:
-
 \begin{itemize}
 	\item Ban: to disable a song from appearing in the current round.
 
@@ -479,7 +488,7 @@ one from each division---%
 and so will the rest be determined.
 
 All the prizes will be awarded in form of  % maybe 'be converted'? 
-cash---every Arcaea Sound Collection Album converts to ¥150,
+RMB---every Arcaea Sound Collection Album converts to ¥150,
 and every 100 Memories converts  % convert or converts??? 
 to ¥6.
 

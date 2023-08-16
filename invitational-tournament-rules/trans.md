@@ -34,7 +34,7 @@ music play (6 minutes) and moment of respite (3 minutes).
 
 Every team will opt to reveal one of their picks,
 along with whether it's the higher or lower difficulty pick <!-- hmm -->
-(or either if the selections have the same difficulty).
+(or either if the selections are of the same difficulty).
 The outcomes will be disclosed 30 minutes before the match.
 
 ### Other Details

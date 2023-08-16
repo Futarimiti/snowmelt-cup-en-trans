@@ -10,15 +10,16 @@ each player is allowed to play 5 times by maximum.
 ### Song Pool
 
 The song pool will encompass all songs
-with a difficulty range of 10.4 to 12.0,
+within the difficulty range of 10.4 to 12.0,
 up until the latest update of Arcaea.
 
 ### Song Selection & Ban/Pick
 
-Each team will ban 1 song and pick 2 songs,
-the referee will randomly select 1 song,
-7 songs in total.
-Banned songs will be announced 1 hour before the match.
+Every team may ban 1 song and pick 2 songs.
+The referee will then randomly select an additional song,
+resulting in a total of 7.
+
+Banned songs will be revealed 1 hour prior to the match.
 
 ### Time Arrangements
 

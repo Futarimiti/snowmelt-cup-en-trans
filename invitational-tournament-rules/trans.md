@@ -2,8 +2,8 @@
 
 ### Grouping & Arrangements
 
-A total of 9 players will be divided randomly into 3 teams.
-In each team, any 2 players will play a song,
+A total of 9 players will be divided randomly into 3 teams,
+within which any 2 players will play a song,
 with each player allowed to perform a maximum of 5.
 
 ### Song Pool

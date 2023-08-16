@@ -23,7 +23,7 @@ Banned songs will be revealed 1 hour prior to the match.
 
 ### Time Arrangements
 
-The event is scheduled to take place from August 28th to August 30th,
+The event is scheduled to take place from 28/8 to 30/8,
 with the specific timing to be determined by the players.
 
 Following the announcement of each song,

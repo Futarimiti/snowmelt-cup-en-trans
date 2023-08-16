@@ -28,7 +28,7 @@ Following the announcement of each song,
 every team will be designated periods for discussion (3 minutes),
 music play (6 minutes) and moment of respite (3 minutes).
 
-### Special Rules: Open Pick  <!-- ? -->
+### Special Rule: Pick Reveal
 
 Every team will opt to reveal one of their picks,
 along with whether it's the higher or lower difficulty pick <!-- hmm -->

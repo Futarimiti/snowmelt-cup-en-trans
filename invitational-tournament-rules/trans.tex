@@ -1,0 +1,102 @@
+\documentclass{article}
+
+\usepackage{xcolor}
+\usepackage{calc}
+\usepackage{hyperref}
+\usepackage[a4paper]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{{Snowmelt Cup II}\\{\Huge Invitational Tournament Rules}}
+\date{}
+
+\newcommand{\scoreformula}[1]{{\color{red} #1}}
+\newcommand{\notestyle}[1]{\textsc{\lowercase {#1}}}
+\newcommand\Points{\text{Points}}
+\newcommand\MaxPure{\notestyle{Max Pure}}
+\newcommand\Pure{\notestyle{Pure}}
+\newcommand\Far{\notestyle{Far}}
+\newcommand\Lost{\notestyle{Lost}}
+\newcommand{\coloneq}{\mathrel{\resizebox{\widthof{$\mathord{=}$}}{\height}{ $\!\!\resizebox{1.2\width}{0.8\height}{\raisebox{0.23ex}{$\mathop{:}$}}\!\!=\!\!$ }}}
+
+\begin{document}
+
+\maketitle
+\pagenumbering{gobble}
+\frenchspacing
+
+\section{Arrangements}
+
+A total of 9 players will be randomly divided into teams of 3.
+In each round of the music play, any 2 players from the same team will participate.
+Each player is permitted to perform a maximum of 5 times.
+
+
+\section{Song Pool}
+
+The song pool will include all songs
+(up until the latest Arcaea update)
+with difficulty ranging 10.4--12.0.
+
+
+\section{Song Selection \& Ban/Pick}
+
+Every team will choose to ban 1 song AND pick 2 songs. The referee will then
+randomly select an additional song, resulting in a total of 7.
+Banned songs will be revealed 1 hour prior to the match.
+
+
+\section{Schedule}
+
+The event is scheduled to take place from 28/8 to 30/8, with the
+specific timing to be determined by the players.
+
+Following the announcement of each song, every team will be designated
+periods for discussion (3 minutes), music play (6 minutes) and moment of
+respite (3 minutes).
+
+
+\section{Special Rule: Pick Reveal}
+
+Each team will decide to disclose one of their picks and
+indicate whether it's the one with a higher or lower difficulty
+(or either in case of having the same difficulty).
+The outcomes will be unveiled 30 minutes before the match.
+
+
+\section{Other Details}
+
+\begin{itemize}
+
+	\item Handcams are required for the entire event.
+	      Players who decide to livestream the gameplay
+	      should prepare a clear recording.
+
+	\item Prior to the starting of each round,
+	      provide your team's selection of candidates
+	      to the referee during the discussion phase.
+	      This choice may not be changed once the play starts.
+
+	\item Following each play, promptly capture a \textbf{timestamped} screenshot
+	      of the play results, displaying the breakdown of your \Pure{} counts, then
+	      submit to the referee without delay. Additionally, you will need to
+	      submit your handcam at the end of the match.
+
+\end{itemize}
+
+\section{Scoring}
+
+Formula:
+
+\scoreformula{
+	\begin{align*}
+		\Points        & \coloneq \frac{M + 0.9P + 0.2F}{N} \\
+		\text{where}~M & = \text{No.~of \MaxPure,}          \\
+		P              & = \text{No.~of \Pure,}             \\
+		F              & = \text{No.~of \Far,}              \\
+		N              & = \text{Total count of notes}
+	\end{align*}
+}
+
+\end{document}
